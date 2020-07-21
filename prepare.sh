@@ -2,7 +2,7 @@
 
 if [ ! -z "$MYSQL_MASTER" ]; then
   echo "this container is master"
-  return 0
+  exit 0
 fi
 
 echo "prepare as slave"
